@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mystery Crystals Collector Game</title>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Faustina|Monoton|Special+Elite" rel="stylesheet">
+
+</head>
+<body>
+	<h1>Mystery Crystals Collector Game</h1>
+	<h2>Let's start with <span id="red">ruby red</span> or <span id="blue">sapphire blue</span>... Mystery crystals! What value are you?
+	<br>
+	Maybe <span id="white">pure white</span> diamond or <span id="green">emerald green</span>? Click on me to find out what can't be seen!</h2>
+	<div id="instructions">
+		<h3>Instructions:</h3>
+		<p>By clicking on a crystal, you will add a <span>mysterious</span> amount to your total score. You must match your total score to the winning number or you lose! <br>Each crystal is given a <span>mysterious</span> value at the start of every game. Good luck!</br></p>
+	</div>
+	<div id="numbers">	
+	<h3 id="winning-number">Winning Number:</h3>
+	<h3 id="userScore">Your Score:</h3>	
+	</div>
+	<div id=win-lose> 
+		<h3 id="Game-win">Wins:</h3>
+		<h3 id="Game-lose">Losses:</h3>
+	</div>
+	<br></br>
+	<br></br>
+	<br></br>
+	<br></br>
+	<div id="crystals"> 
+		<img id="img-1" class="rotate" src="assets/images/crystal-1.jpg" width="20%">
+		<img id="img-2" class="rotate" src="assets/images/crystal-2.jpg" width="25%">
+		<img id="img-3" class="rotate" src="assets/images/crystal-3.jpg" width="25%">
+		<img id="img-4" class="rotate" src="assets/images/crystal-4.jpg" width="20%">
+	</div>
+</body>
+</html>

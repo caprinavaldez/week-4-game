@@ -1,0 +1,134 @@
+h1 {
+	font-family: 'Monoton', cursive;
+	text-align: center;
+	font-size: 55px;
+	font-weight: lighter;
+	margin: 20px 0 10px 0;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+	margin-bottom: 30px;
+}
+
+#instructions, 
+h3 {
+	font-family: 'Faustina', serif;
+	text-align: center;
+}
+
+#winning-number {
+	margin-top: 25px;
+	font-family: 'Special Elite', cursive;
+}
+
+#userScore,
+#Game-win,
+#Game-lose {
+	font-family: 'Special Elite', cursive;
+}
+
+#numbers {
+	float: left;
+	margin: 15px 0 0 270px;
+}
+
+#win-lose {
+	float: right;	
+	margin: 15px 330px 0 0;
+}
+
+#red {
+	color: red;
+}
+
+#blue {
+	color: blue;
+}
+
+#white {
+	color: white;
+}
+
+#green {
+	color: green;s
+}
+
+span {
+	font-family: 'Special Elite', cursive;
+	font-weight: bold;		
+}
+
+#instructions {
+	border-style: solid;
+	border-width: medium;
+	margin: 5px 80px 5px 80px;
+	padding-bottom: 10px;
+}
+
+#crystals {
+	text-align: center;
+}
+
+html { 
+  background: url(http://ak6.picdn.net/shutterstock/videos/14088056/thumb/1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 80%;
+}
+
+.rotate {
+  -webkit-transition:all 0.5s ease-out;
+  -moz-transition:all 0.5s ease-out;
+  -ms-transition:all 0.5s ease-out;
+  -o-transition:all 0.5s ease-out;
+  transition:all 0.5s ease-out;
+}
+
+.rotate:hover {
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  transform:rotate(360deg);
+}
+
+@media only screen and (max-width: 980px) {
+	h2 {
+		font-size: 19px;
+	}
+	#instructions {
+		margin: 5px 10px 0 10px;
+		padding: 0 10px 5px 10px;
+	}
+	#numbers {
+	margin: 15px 0 0 170px;
+	}
+	#win-lose {
+	margin: 15px 230px 0 0;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#numbers {
+	margin: 15px 0 0 100px;
+	}
+	#win-lose {
+	margin: 15px 180px 0 0;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	h1 {
+		font-size: 50px;
+	}
+	#numbers {
+	margin: 10px 0 0 70px;
+	}
+	#win-lose {
+	margin: 10px 100px 0 0;
+	}
+}
